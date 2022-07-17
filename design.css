@@ -1,0 +1,102 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url("images/bg-mobile.svg");
+    background-repeat: no-repeat;
+}
+.logo {
+    margin: 25px 20px;
+    width: 130px;
+}
+.illimg {
+    display: flex;
+    justify-content: center;
+}
+.illus {
+    width: 300px;
+    margin: 25px 30px
+}
+.head {
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+    margin: 40px 40px 0px;
+    text-align: center;
+}
+.tail {
+    color: white;
+    margin: 30px 36px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+}
+.but {
+    display: flex;
+    justify-content: center;
+}
+.button {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    color: hsl(257, 40%, 49%);
+    background-color: white;
+    cursor: pointer;
+    border-radius: 50px;
+    font-size: 13px;
+    margin-bottom: 60px;
+    font-family: 'Open Sans', sans-serif;
+    transition-duration: 150ms;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+}
+.button:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+}
+.foot {
+    display: flex;
+    justify-content: center;
+}
+.fa-brands {
+    font-size: 12px;
+    color: white;
+    border: solid white 1px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0px 5px 20px;
+    transition-duration: 150ms;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+}
+.fa-facebook-f {
+    padding: 5.5px 7.75px;
+}
+.fa-twitter {
+    padding: 5.5px 5.5px;
+}
+.fa-instagram {
+    padding: 5.5px 6.25px;
+}
+.fa-brands:hover {
+    color: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
+}
+.attribution {
+    font-size: 9px;
+    text-align: center;
+    color: white;
+}
+a {
+    color: hsl(300, 69%, 71%);
+    transition-duration: 150ms;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+}
+a:hover {
+    color: hsl(300, 31%, 52%);
+}
