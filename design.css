@@ -27,10 +27,11 @@ body {
 }
 .tail {
     color: white;
-    margin: 30px 36px;
+    margin: 20px 36px;
     text-align: center;
     font-weight: 400;
     font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
 }
 .but {
     display: flex;
@@ -49,7 +50,6 @@ body {
     border-radius: 50px;
     font-size: 13px;
     margin-bottom: 60px;
-    font-family: 'Open Sans', sans-serif;
     transition-duration: 150ms;
     transition-property: all;
     transition-timing-function: ease-in-out;
@@ -72,6 +72,8 @@ body {
     transition-duration: 150ms;
     transition-property: all;
     transition-timing-function: ease-in-out;
+    cursor: pointer;
+    
 }
 .fa-facebook-f {
     padding: 5.5px 7.75px;
@@ -99,4 +101,65 @@ a {
 }
 a:hover {
     color: hsl(300, 31%, 52%);
+}
+@media (min-width: 376px) {
+    body {
+        background-image: url("images/bg-desktop.svg");
+    }
+    .logo {
+        margin: 50px 50px;
+        width: 200px;
+    }
+    .main {
+        display: flex;
+        justify-content: center;
+    }
+    .illus {
+        width: 700px;
+        margin: 30px 0px 14px 70px
+    }
+    .desc {
+        margin-top: 40px;
+    }
+    .head {
+        font-size: 40px;
+        margin: 40px 50px 0px;
+        text-align: left;
+    }
+    .tail {
+        margin: 20px 90px 20px 50px;
+        text-align: left;
+        font-size: 16px;
+    }
+    .but {
+        justify-content: left;
+        margin-left: 50px;
+    }
+    .button {
+        font-size: 18px;
+        height: 55px;
+    }
+    .foot {
+        justify-content: right;
+        margin-right: 50px;
+    }
+    .fa-brands {
+        font-size: 20px;
+        border: solid white 1px;
+        margin: 0px 5px 15px;
+    }
+    .fa-facebook-f {
+        font-size: 18px;
+        padding: 10px 13.5px;
+    }
+    .fa-twitter {
+        font-size: 16px;
+        padding: 10.5px 11px;
+    }
+    .fa-instagram {
+        padding: 8.5px 10.25px;
+    }
+    .attribution {
+        font-size: 12px;
+    }
 }
