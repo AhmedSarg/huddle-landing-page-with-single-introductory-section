@@ -105,6 +105,7 @@ a:hover {
 @media (min-width: 376px) {
     body {
         background-image: url("images/bg-desktop.svg");
+        background-repeat: repeat;
     }
     .logo {
         margin: 50px 50px;
